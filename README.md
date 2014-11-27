@@ -3,6 +3,8 @@ codeigniter-dbvars
 
 Store vars in a database
 
+### Structure
+```SQL
 CREATE TABLE IF NOT EXISTS `vars` (
   `var_key` varchar(255) NOT NULL,
   `var_value` text,
@@ -18,3 +20,4 @@ CREATE TABLE IF NOT EXISTS `vars_translations` (
 
 ALTER TABLE `vars_translations`
   ADD CONSTRAINT `vars_translations_ibfk_1` FOREIGN KEY (`var_key`) REFERENCES `vars` (`var_key`) ON DELETE CASCADE ON UPDATE CASCADE;
+```
