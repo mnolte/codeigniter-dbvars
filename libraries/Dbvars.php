@@ -4,6 +4,12 @@
  * Dbvars Library
  *
  * Simplify storing variables in the database.
+ *
+ * @package		Dbvars
+ * @version		1.0
+ * @author 		Marc Nolte <contact@marcnolte.nl>
+ * @copyright 	Copyright (c) 2014, Marc Nolte
+ * @link		https://github.com/mnolte/codeigniter-dbvars
  */
 class Dbvars
 {
